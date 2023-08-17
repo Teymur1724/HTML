@@ -1,27 +1,26 @@
-/* Общие стили для страницы */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Светло-серый фон */
-    color: #333; /* Тёмно-серый цвет текста */
+    background-color: #f0f0f0; 
+    color: #333; 
 }
 
-/* Стили для шапки */
 header {
-    background-color: #2886c9; /* Сине-голубой цвет фона */
-    color: #fff; /* Белый цвет текста */
+    background-color: #2886c9;
+    color: #fff; 
     text-align: center;
     padding: 1rem 0;
 }
 
-/* Стили для навигации */
+
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #1e5f8e; /* Голубой цвет фона */
+    background-color: #1e5f8e; 
 }
 
 nav li {
@@ -33,7 +32,6 @@ nav a {
     color: #fff;
 }
 
-/* Стили для основного контента */
 .main-content {
     display: flex;
     justify-content: space-around;
@@ -42,19 +40,19 @@ nav a {
 }
 
 .news-article {
-    background-color: #fff; /* Белый цвет фона статей */
+    background-color: #fff; 
     border: 1px solid #ccc;
     padding: 1rem;
     margin: 1rem;
-    flex-basis: calc(33.33% - 2rem); /* Равное распределение на 3 столбца */
+    flex-basis: calc(33.33% - 2rem); 
     text-align: center;
 }
 
 .news-article h2 {
-    color: #2886c9; /* Сине-голубой цвет для заголовков */
+    color: #2886c9; 
 }
 
-/* Стили для подвала */
+
 footer {
     background-color: #1e5f8e;
     color: #fff;
